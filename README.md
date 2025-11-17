@@ -1,5 +1,10 @@
 Imagens esp-hosted e linux xtensa para o ESP32-S3
 
+Images generated with this HOWTO:
+```
+https://github.com/hpsaturn/esp32s3-linux
+```
+
 ## Para gravar as imagens
 ```
  esptool.py --chip esp32s3 -p /dev/ttyUSB0 -b 2000000 --before=default_reset \
